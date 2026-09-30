@@ -1,0 +1,1 @@
+import{bg as s,b6 as t}from"./DUququmF.js";const i=async a=>{await s(`team/${a}/join`,{apiVersion:3,method:"POST"})},r=async a=>{const e=await t();await m(a,e.value.user.id)},m=async(a,e)=>{await s(`team/${a}/members/${e}`,{apiVersion:3,method:"DELETE"})};export{i as a,m as b,r};

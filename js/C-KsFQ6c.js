@@ -1,0 +1,1 @@
+import{d as c,c as t,o as n,m as r,J as s,p,cb as g,cc as m,cd as d}from"./DUququmF.js";const f=c({__name:"TagIcon",props:{tag:{},enforceType:{}},setup(a){const e=a,o=t(()=>e.enforceType==="loader"?g(e.tag):e.enforceType==="category"?m(e.tag):d(e.tag));return(u,y)=>o.value?(n(),r(s(o.value),{key:0})):p("",!0)}});export{f as _};

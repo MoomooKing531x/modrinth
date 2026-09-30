@@ -1,0 +1,1 @@
+import{V as s,o as t,a,ac as c}from"./DUququmF.js";const o={},r={class:"flex flex-wrap items-center gap-2"};function n(e,l){return t(),a("div",r,[c(e.$slots,"default")])}const f=s(o,[["render",n]]);export{f as P};
