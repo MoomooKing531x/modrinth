@@ -3,6 +3,7 @@ services:
     name: modrinth-yacl
     env: static
     buildCommand: ""
+    startCommand: "python -m http.server $PORT"
     publishPath: .
     routes:
       - type: rewrite
